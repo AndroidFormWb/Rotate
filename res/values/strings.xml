@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rotate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="order">顺序</string>
+    <string name="antitone">反序</string>
+    <string name="btn">start</string>
+    
+    <string name="positive_rotation">正旋转</string>
+    <string name="negative_rotation">反旋转</string>
+    
+    <string name="positive_diagonal">以＼轨迹</string>
+    <string name="negative_diagonal">以／轨迹</string>
+    
+</resources>

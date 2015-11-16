@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <com.cc.rotate.Rotate3DImage android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioGroup android:id="@+id/rd1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            
+            <RadioButton android:id="@+id/order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/order"/>
+            
+             <RadioButton android:id="@+id/antitone"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/antitone"/>
+            
+        </RadioGroup>
+        
+        <RadioGroup android:id="@+id/rd2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            
+            <RadioButton android:id="@+id/positive_rotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/positive_rotation"/>
+            
+             <RadioButton android:id="@+id/negative_rotation"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/negative_rotation"/>
+            
+        </RadioGroup>
+        
+        <RadioGroup android:id="@+id/rd3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            
+            <RadioButton android:id="@+id/positive_diagonal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/positive_diagonal"/>
+            
+             <RadioButton android:id="@+id/negative_diagonal"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/negative_diagonal"/>
+            
+        </RadioGroup>
+        
+    </LinearLayout>
+    
+    <Button android:id="@+id/btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/btn"/>
+
+</LinearLayout>
